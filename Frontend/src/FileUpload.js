@@ -13,7 +13,7 @@ const FileUpload = () => {
         formData.append('image', file);
 
         try {
-            const response = await axios.post('http://localhost:8000/upload', formData, {
+            const response = await axios.post('https://textextracor-1.onrender.com/upload', formData, {
                 responseType: 'blob'
             });
 
