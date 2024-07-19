@@ -50,7 +50,7 @@ const FileUpload = () => {
                 />
                 <button 
                     onClick={handleUpload} 
-                    className={`w-full py-2 rounded-lg text-black  bg-blue-500 ${loading ? 'bg-blue-500' : 'bg-blue-600 hover:bg-blue-700'} transition-all duration-300`}
+                    className={`w-full py-2 rounded-lg text-white bg-blue-500 ${loading ? 'bg-blue-500' : 'bg-blue-600 hover:bg-blue-700'} transition-all duration-300`}
                     disabled={loading}
                 >
                     {loading ? `Uploading... ${progress}%` : 'Upload'}
